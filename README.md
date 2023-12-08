@@ -1,63 +1,66 @@
-# **_<center>Raspberry Pi Documentation</center>_**
+# **Information Assurance**
+---
+### Group-12
+- _Bayos, Roberto Jr. B._
+- _Nadal, Johben A._
+- _Gava, John Christian M._
 
 ---
 
-## **_So what is Raspberry Pi?_**
+## **_<center>Raspberry Pi Documentation</center>_**
+
+---
+
+### **_So, what is Raspberry Pi?_**
 
 >The Raspberry Pi is a very cheap computer that runs Linux, but it also provides a set
 of GPIO (general purpose input/output) pins,
 allowing you to control electronic components for
 physical computing and explore the Internet of Things (IoT).
 
-### _**Step 1:**_ Install Headless **Raspbian OS** into _Raspberry Pi_
+#### _**Step 1:**_ Install Headless **Raspbian OS** into _Raspberry Pi_
  _(https://www.raspberrypi.com/software/)_
 
- - Raspberry Pi Imager is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
+ - First, we need to download and install the **"Raspberry Pi"**
  Here is the link for the [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
- ![Screenshot 2023-12-07 145420](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/e2574685-2757-4d49-a721-188f7f518d8a)
+ ![400494685_1520571618518673_7952891577700257049_n](https://github.com/CaseinBrt/Documentation/assets/145450481/fb4c181b-9ec7-4383-b793-530b62c4e77c)
 
- - Open Raspberry Pi Imager. Choose Raspberrry Pi Device, Operating System, and Storage.
- ![Screenshot 2023-12-07 135408](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/ca526d3e-fe83-4ab8-bef8-6a7b401f41e4)
+ - In this part open the Raspberry Pi Imager, and Choose Raspberrry Pi Device, Operating System, and Storage.
+ ![RB](https://github.com/CaseinBrt/Documentation/assets/145450481/96838abe-5998-42f0-b63c-5e96b749a3d3)
 
- - In this project, we choose **_Raspberry Pi 3_** as device, **_Raspberry Pi OS (Legacy)_** as operating system, and our **_32GB SD Card_** as storage.
- ![Screenshot 2023-12-07 135512](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/9e5fe390-dc24-4570-9de6-0588a0fa450a)
- ![Screenshot 2023-12-07 135541](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/5d91f9da-4a42-40e0-a2b4-148fe5e9640d)
- ![Screenshot 2023-12-07 135558](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/95cc7542-6144-4873-b516-4fb3a3f675a0)
 
- - After choosing the preferred device, OS, and storage, click **Next**.
- ![Screenshot 2023-12-07 135616](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/15ea5bcb-cfd5-4235-8742-77087116cb53)
+ - We choose **Raspberry Pi 3** as device, and **_Raspberry Pi OS (Legacy)_** as operating system. Also, our **32GB SD Card** as storage.
+ ![393145357_897420492051420_6817004208116354603_n](https://github.com/CaseinBrt/Documentation/assets/145450481/eea45364-cd29-4005-a12e-86c75f623272)
+ ![377241562_1062921111715927_103322438306499714_n](https://github.com/CaseinBrt/Documentation/assets/145450481/c21bc8f7-29f1-41ec-bf69-d7a13772c793)
+ ![403411511_412139751467171_3308658335017623501_n](https://github.com/CaseinBrt/Documentation/assets/145450481/90fbd844-8563-4e53-93f3-bf436f8d3e4b)
 
- - ...and click **Edit Settings** to customize the OS Settings.
- ![Screenshot 2023-12-07 135634](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/d99d262e-2f36-4056-9eb7-4661712a5f01)
+ - Click **_Next_**. After choosing the device, OS, and storage.
+ ![400621530_1335577220401316_8795652795261815842_n](https://github.com/CaseinBrt/Documentation/assets/145450481/ba700896-a09e-4e6f-a8f8-d2334c6362de)
 
- - In the OS Customization, we set the host, username, and password as **group1**. We configure our wireless LAN available which is **CSPC BayanihanNet** and set the wireless LAN   country to **PH.** Lastly, we set our timezone to **Asia/Shanghai** since they have the same timezone (GMT+8) with Manila, then click **Save**.
-   
- ![Screenshot 2023-12-07 135752](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/d4dc817d-04e5-49c0-831c-e9bda0386683)
 
- - Don't forget to enable SSH and use password authentication, then click **Save**.
+ - To customize the OS Settings, click **EDIT SETTINGS** button.
+ ![393194299_363645859540214_7154670965270395864_n](https://github.com/CaseinBrt/Documentation/assets/145450481/f3fa41fd-20a0-4cb9-91d3-0208f6fcb750)
+
+ - In the OS Customization, we set the host, username, and password as **_group12_**. We made some changes in our wireless LAN which is **CSPC BayanihanNet** and set the wireless LAN country to **_PH._** Lastly, we set our timezone to **Asia/Manila** then click **_Save_**.
+ ![393114535_1095928151312852_5876205805852913922_n](https://github.com/CaseinBrt/Documentation/assets/145450481/817653fe-8266-4dd7-a384-bb3c67dca0fd)
+
+ - Make sure to enable **"SSH"** and use password authentication, and after that, just click on **Save** button below.
  ![Screenshot 2023-12-07 135810](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/8f8dd69e-c5e5-44f0-a515-b23864ae8db8)
 
- - Click **Yes** to apply our customized settings.
-   ![Screenshot 2023-12-07 140959](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/b1f04a91-fa82-44d9-ae70-e237221f1837)
+ > All existing data in the SD card make sure to backup to avoid deletion while formatting.
+ - A warning will appear reminds the user that all existing data on our SD card will be erased if we continue on our installation.
+ - Click **Yes** since our memory card has no existing files.
+  ![371472973_1035315564368265_4510458628948484002_n](https://github.com/CaseinBrt/Documentation/assets/145450481/6e7c7ab2-a9b9-4ab0-aa99-83bd6591c74e)
 
- > [!WARNING]
- > Make sure to backup all existing data in the SD card to avoid deletion while formatting.
- - A warning will appear that all existing data on our SD card will be erased if we continue on our installation. Click **Yes** since our SD card have no existing files that needs to be backed up.
-  ![Screenshot 2023-12-07 135833](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/5378f87f-03f9-45ab-a6c3-e25cba283b61)
+ - OS writing on our SD card will then start...
+  ![398353951_2441013162753240_2785452117252676937_n](https://github.com/CaseinBrt/Documentation/assets/145450481/906a36d5-f26e-4f31-9552-1b3e2ae0fd34)
 
- - OS writing on our SD card will then start
-
-![Screenshot 2023-12-07 135844](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/c75ec2ca-df1e-4e13-9766-88eadc471491)
-
-![Screenshot 2023-12-07 135942](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/e8c848b2-cafc-4923-a4c2-77301fdccd3a)
-
- - After writing, verification will start.
-  
-![Screenshot 2023-12-07 140853](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/9e465d13-36c9-4316-ba62-5fdd8aafb04c)
+ - The verification will start after writing.
+  ![405249132_333825012612138_1117697920856273851_n](https://github.com/CaseinBrt/Documentation/assets/145450481/929d2a27-ddfa-4bdd-8900-2c7c62f66509)
 
  - Wait until the verification hits 100%, and write succesfull prompt will appear. In this part, it's now safe to eject our SD card from the PC.
+ ![377147723_325086653638346_8268673517986389737_n](https://github.com/CaseinBrt/Documentation/assets/145450481/109268e6-f898-43c4-969b-05a48cd369d1)
 
-![Screenshot 2023-12-07 140905](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/33d244ad-11b9-401e-a302-57ad6fb60c1f)
 
  _**Step 2:**_ Connect to Raspberry Pi via SSH then update the OS
  
