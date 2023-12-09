@@ -142,7 +142,7 @@ physical computing and explore the Internet of Things (IoT).
 
    ---
    
--  In this part we must take control on the device and run RealVNC Viewer... Enter the _private IP address_ in the search bar. If the screen of the Raspberry Pi appeared on **RealVNC**, it means that it established already the connection and control on the **_Raspberry Pi_**.
+ > In this part we must take control on the device and run RealVNC Viewer... Enter the _private IP address_ in the search bar. If the screen of the Raspberry Pi appeared on **RealVNC**, it means that it established already the connection and control on the **_Raspberry Pi_**.
 
   ---
   
